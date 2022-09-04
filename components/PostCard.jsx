@@ -5,7 +5,7 @@ import Link from "next/link";
 const PostCard = ({ post }) => {
   return (
     <div className="grid lg:grid-cols-6 gap-12">
-      <div className="font-medium text-xl text-gray-700 lg:col-span-1 lg:pt-7">
+      <div className="font-medium text-xl md:text-lg text-gray-700 lg:col-span-1 lg:pt-7">
         <span>{moment(post.createdAt).format("MMM DD, YYYY")}</span>
       </div>
       <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 lg:col-span-5 pb-12 mb-8">
